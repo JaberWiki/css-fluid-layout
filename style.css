@@ -1,0 +1,22 @@
+.flex-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.flex-card .name{
+    flex: 1 0 8rem;
+    height: 35px;
+}
+
+.flex-card .email{
+    flex: 1 0 8rem;
+    height: 35px;
+}
+
+.flex-card .submit{
+    flex: 1 0 4rem;
+    height: 35px;
+}
